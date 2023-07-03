@@ -9,7 +9,7 @@ from streamlit_folium import st_folium
 st.title("基于百度指数的各省旅游热度图")
 st.subheader("点击以下省份获得具体旅游热度")
 
-df=pd.read_excel(r"C:\Users\heduidui\Desktop\final\provinceinfo2022.xlsx")
+df=pd.read_excel("provinceinfo2022.xlsx")
 #province_all = pd.read_excel(r"D:\gisfinal\provinceinfo.xlsx")
 #df=pd.read_excel("provinceinfo2022.xlsx")
 
