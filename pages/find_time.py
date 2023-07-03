@@ -4,7 +4,7 @@ import streamlit as st
 plt.rcParams["font.family"] = "SimHei"
 x = [1,2,3,4,5,6,7,8,9,10,11,12]
 fig, ax = plt.subplots()
-frame = pd.read_excel("premonth.xlsx")
+frame = pd.read_csv("premonth.xlsx")
 names = list(frame["省份"])
 st.title("旅游时间查询")
 name = st.selectbox('选择旅游目的地',names)
